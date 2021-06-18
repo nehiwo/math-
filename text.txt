@@ -1,0 +1,26 @@
+#include<studio.h>
+int main(int arg,const char*argv[]){
+int x,y,
+printf("Input a positive intenger:¥n");
+scanf("%d",&x¥n");
+y=x%10;
+if(y==1){
+printf("%d st,x¥n");
+if(x==11){
+printf("%d th,x¥n");
+}
+}
+1f(y==2){
+printf("%d nd,x¥n");
+if(x==12){
+printf("%d th,x¥n");
+}
+}
+if(y==3){
+printf("%d rd,x¥n")
+}
+else{
+printf("%d th,x¥n");
+}
+return 0;
+}

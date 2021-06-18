@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(int argc,const char*argv[]){
+  int x,y;
+    printf("Input a positive intenger:");
+  scanf("%d",&x);
+  y=x%10;
+  if(y==1){
+    printf("%d st",x);
+    if(x==11){
+      printf("%d th",x);
+    }
+  }
+  else if(y==2){
+    printf("%d nd",x);
+    if(x==12){
+      printf("%d th",x);
+    }
+  }
+  else if(y==3){
+    printf("%d rd",x);
+  }
+  else{
+    printf("%d th",x);
+  }
+  return 0;
+}
