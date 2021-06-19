@@ -15,6 +15,7 @@ int main(int argc,const char*argv[]){
     }
     return 0;
 }
+
 double func(double x){
     return tanh(x) + 0.2 * x - 0.3;
 }

@@ -61,7 +61,9 @@ int main(){
                 break;
             }
         }
-        if(flag == 0) printf("Win\nLast flags are %s & %s.\n",red_flag, white_flag);
+        if(flag == 0){
+            printf("Win\nLast flags are %s & %s.\n",red_flag, white_flag);
+        }
         printf("\n");
     }
     return 0;

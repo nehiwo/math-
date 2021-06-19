@@ -11,9 +11,9 @@ int main(){
     while(fgets(bubble, sizeof(bubble), stdin) != NULL){
         printf("bubble[%i]:%s\n",index,bubble);
         
-        int i,j;
+        int i = 0, j = 0;
         int len = strlen(bubble);
-        char temp;
+        char temp = 0;
         for(i = 0; i < len; i++){
             for(j = len - 1; j > i; j--){
                 if(bubble[j] < bubble[j - 1]){
