@@ -1,28 +1,29 @@
 #include<stdio.h>
+
 int main(int argc,const char*argv[]){
-  int x,y;
+    int x = 0, y = 0;
     printf("Input a positive intenger:");
-  scanf("%d",&x);
-  y=x%10;
-  if(y==1){
-    if(x==11){
-      printf("%d th",x);
-    }else{
-      printf("%d st",x);
+    scanf("%d",&x);
+    y = x % 10;
+    if(y == 1){
+        if(x == 11){
+            printf("%d th",x);
+        }else{
+            printf("%d st",x);
+        }
     }
-  }
-  else if(y==2){
-    if(x==12){
-      printf("%d th",x);
-    }else{
-      printf("%d nd",x);
+    else if(y == 2){
+        if(x == 12){
+            printf("%d th",x);
+        }else{
+            printf("%d nd",x);
+        }
     }
-  }
-  else if(y==3){
-    printf("%d rd",x);
-  }
-  else{
-    printf("%d th",x);
-  }
-  return 0;
+    else if(y == 3){
+        printf("%d rd",x);
+    }
+    else{
+        printf("%d th",x);
+    }
+    return 0;
 }

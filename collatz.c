@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(int argc,const char*argv[]){
-    unsigned long long int n, i;
+    unsigned long long int n = 0, i = 0;
     i = 0;
     printf("input a positive integer:");
     scanf("%llu",&n);
